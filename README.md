@@ -14,20 +14,17 @@ Copy code
 python --version
 Install the required dependencies by running the following command in your terminal or command prompt:
 
-bash
-Copy code
-pip install tkinter
-Usage
-Navigate to the project directory in your terminal or command prompt.
+-bash
+-Copy code
+-pip install tkinter
+-pip install twilio
+-pip install jason
+-pip install requests
+-pip 
 
 Run the following command to start the application:
 
-bash
-Copy code
-python main.py
-The application window will open, displaying a "Generate" button and a label to show the generated cryptocurrency name.
-
-Click the "Generate" button to generate a random cryptocurrency name. The generated name will be displayed in the label.
+The application window will open, displaying a "Sign in" and "Register" button. You have to register first with your username and password. Once you resister, you can sign for the next page.
 
 ### Contributing
 Contributions are welcome! If you find any issues or have any suggestions for improvements, please open an issue or submit a pull request.
